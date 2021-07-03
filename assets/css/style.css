@@ -1,0 +1,220 @@
+body{
+    background-color: #F8FAFE;
+    position: relative;
+    height: 100vh;
+}
+
+/* .overlay__menu{
+    position: absolute;
+    background-color: #000000a6;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    visibility: hidden;
+}
+
+.bar{
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    visibility: hidden;
+} */
+
+/* ======= Navbar style ======= */
+.navbar{
+    margin-bottom: .8rem;
+}
+/* 
+.toggle__icon{
+    display: none;
+} */
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h2{
+    margin-top: 5px;
+    color: #121212;
+    font-size: 1.5rem;
+}
+
+.navbar-brand h2 span{  
+    font-weight: 700;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 15px;
+    color: #121212 !important;
+}
+
+.nav-link.active{
+    color: #6562CE !important;
+}
+
+.nav-link:hover{
+    color: #6562CE !important;
+}
+
+/* ====== Content ======= */
+.shape{
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+}
+
+.shape__bottom{
+    top: 470px;
+    position: absolute;
+    right: 20%;
+    z-index: -1;
+}
+
+.content__img{
+    margin: 5% 10%;
+}
+
+.background__card{
+    background-color: #ffffff75;
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+
+.title__content{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
+}
+
+.form-select{
+    outline: none !important; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 3%), 
+                0 10.3px 22.9px rgb(0 0 0 / 5%);
+}
+
+.card h2,
+p{
+    margin-bottom: 0;
+}
+
+.card{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 3%), 
+                0 10.3px 22.9px rgb(0 0 0 / 5%);
+}
+
+.card h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card p{
+    font-size: 1rem;
+}
+
+.shape__card{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.wrap__card{
+    position: relative;
+}
+
+/* ====== Carousel ====== */
+.carousel{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 3%), 
+                0 10.3px 22.9px rgb(0 0 0 / 5%);
+}
+
+.carousel-inner{
+    padding: 20px 60px;
+}
+
+.carousel h5{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.carousel p{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 100%;
+}
+
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50% !important;
+    background-color: #D5D5D5 !important;
+}
+
+.carousel-indicators button.active {
+    background-color: #6562CE !important;
+}
+
+/* ====== Responsive styling ======== */
+
+@media (max-width: 992px){
+    .content__img{
+        display: none;
+    }
+
+    .navbar-toggler{
+        color: #000;
+        outline: none !important;
+        border: none !important;
+    }
+
+    .shape__bottom{
+        right: 25%; 
+        top: 70%;
+    }
+
+    .wrap__carousel{
+        width: 100% !important;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .content__section{
+        margin-bottom: 1.4rem;
+    }
+
+    .bar h3 span{
+        font-weight: 700;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0;
+        color: #121212 !important;
+        text-align: center;
+    }
+
+    /* .toggle__icon{
+        display: block;
+    } */
+    
+}

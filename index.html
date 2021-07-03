@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Kawal Corona</title>
+</head>
+<body>
+
+    <!-- <div class="overlay__menu" id="overlay"></div>
+
+    <div class="bar" id="bar">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex align-content-center">
+                <img src="assets/img/logo.svg" alt="logo" width="40" height="40" class="d-inline-block me-2">
+                <h3 class="mt-2">Kawal <span>Corona</span></h3>
+            </div>
+            <img src="assets/img/close.svg" alt="close" id="toggle__close">      
+        </div>
+        <hr>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Most Effected</a>
+            </li>
+        </ul>
+    </div> -->
+
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.svg" alt="logo" width="40" height="40" class="d-inline-block align-top me-2">
+                <h2>Kawal <span>Corona</span></h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/img/toggle.svg" alt="menu" width="30" height="auto" class="toggle__icon">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Most Effected</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="shape"><img src="assets/img/Ellipse.svg" alt="bg"></div>
+    <section class="content__section container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <img src="assets/img/illustration.svg" alt="illustrasi" width="400" height="auto" class="content__img">
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="xx">
+                    <div class="title__content">Stats Overview</div>
+                    <div class="background__card">
+                        <div class="dropdown__card mb-3">
+                            <select name="select-country" id="select-country" class="form-select">
+                            <option>Indonesia</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6 mt-3">
+                                <div class="card">
+                                    <img class="shape__card" src="assets/img/shock.svg" alt="">
+                                    <p>Total Positif</p>
+                                    <h2>2,203,108</h2>
+                                    <p>Orang</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 mt-3">
+                                <div class="card">
+                                    <img class="shape__card" src="assets/img/smile.svg" alt="">
+                                    <p>Total Sembuh</p>
+                                    <h2>1,980,287</h2>
+                                    <p>Orang</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 mt-3">
+                                <div class="card">
+                                    <img class="shape__card" src="assets/img/sad.svg" alt="">
+                                    <p>Total Meninggal</p>
+                                    <h2>58,995</h2>
+                                    <p>Orang</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="shape__bottom"><img src="assets/img/shape__bottom.svg" alt="bg"></div>
+
+    <section class="carousel__section container">
+        <div class="title__content">Covid-19 News</div>
+        <div class="row w-50 wrap__carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <h5 class="carousel__title">Pertambahan kasus kembali terjadi di Indonesia</h5>
+                        <p class="carousel__date">01 Juli 2021</p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <h5 class="carousel__title">Ketat! Pemerintah sarankan kebijakan prokes</h5>
+                        <p class="carousel__date">27 Juni 2021</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="carousel__title">Curva virus corona di Indonesia kian mengakhawatirkan</h5>
+                        <p class="carousel__date">10 Mei 2021</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <img src="assets/img/arrow_left.svg" alt="" class="button__carousel">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <img src="assets/img/arrow_right.svg" alt="" class="button__carousel">
+                </button>
+            </div>
+        </div>
+    </section>
+      
+    <!-- <script>
+        const togOpen = document.getElementById('toggle__open');
+        const viewBar = document.getElementById('bar');
+        const viewOverlay = document.getElementById('overlay');
+        const togClose = document.getElementById('toggle__close');
+
+        togOpen.onclick = function(){
+            viewBar.style.visibility = "visible"
+            viewOverlay.style.visibility = "visible"
+        }
+
+        togClose.onclick = function(){
+            viewBar.style.visibility = "hidden"
+            viewOverlay.style.visibility = "hidden"
+        }
+    </script> -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
